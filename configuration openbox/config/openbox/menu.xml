@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://openbox.org/">
+  <menu id="root-menu" label="Applications">
+    <item label="Gestionnaire de Fichiers" icon="/home/stephane/.config/obmenu-generator/icons/bbbcaa2d4f8d89402ff49265a42459a8.png"><action name="Execute"><command><![CDATA[pcmanfm]]></command></action></item>
+    <item label="Terminal" icon="/home/stephane/.config/obmenu-generator/icons/5e660277967746bb84602be82677065a.png"><action name="Execute"><command><![CDATA[lxterminal]]></command></action></item>
+    <item label="Exécuter" icon="/home/stephane/.config/obmenu-generator/icons/5e660277967746bb84602be82677065a.png"><action name="Execute"><command><![CDATA[gmrun]]></command></action></item>
+  <separator/>
+  <menu id="0.0312231491125239" icon="/home/stephane/.config/obmenu-generator/icons/94790bb58200df005514cacf1c3499ee.png" label="Accessoires">
+    <item label="Aide" icon="/home/stephane/.config/obmenu-generator/icons/ecd31f8a4c077df5aa94eb6fb2cc50d5.png"><action name="Execute"><command><![CDATA[yelp]]></command></action></item>
+    <item label="ClipIt" icon="/home/stephane/.config/obmenu-generator/icons/48a881fb450afc8a88c3f5ac8d6bdf8c.png"><action name="Execute"><command><![CDATA[clipit]]></command></action></item>
+    <item label="Disques" icon="/home/stephane/.config/obmenu-generator/icons/0e7350a5eebbea1685c65f391978022c.png"><action name="Execute"><command><![CDATA[gnome-disks]]></command></action></item>
+    <item label="Galculator" icon="/home/stephane/.config/obmenu-generator/icons/6b36ed992dec92c1754df7a47520a1bf.png"><action name="Execute"><command><![CDATA[galculator]]></command></action></item>
+    <item label="Gestionnaire d'archives Engrampa" icon="/home/stephane/.config/obmenu-generator/icons/62fbde8fdd770b8919be9fbf0d9a6073.png"><action name="Execute"><command><![CDATA[engrampa]]></command></action></item>
+    <item label="HP Device Manager" icon="/home/stephane/.config/obmenu-generator/icons/f6a5ec7293a94a9418258692afa3c1c7.png"><action name="Execute"><command><![CDATA[hp-toolbox]]></command></action></item>
+    <item label="Leafpad" icon="/home/stephane/.config/obmenu-generator/icons/1dcc63e6aa5094e93e39c40d82b3d986.png"><action name="Execute"><command><![CDATA[leafpad]]></command></action></item>
+    <item label="Manjaro User Guide" icon="/home/stephane/.config/obmenu-generator/icons/862467a97398c76efaa1bfff7153ca95.png"><action name="Execute"><command><![CDATA[/usr/bin/manjaro-documentation-fr]]></command></action></item>
+    <item label="nitrogen" icon="/home/stephane/.config/obmenu-generator/icons/dc07ea0146d8fe8408ee1b3a35dded2d.png"><action name="Execute"><command><![CDATA[nitrogen]]></command></action></item>
+    <item label="Sauvegardes" icon="/home/stephane/.config/obmenu-generator/icons/30370985bfde1359b3b4ed553f981a2b.png"><action name="Execute"><command><![CDATA[deja-dup]]></command></action></item>
+    <item label="SUSE Studio Imagewriter" icon="/home/stephane/.config/obmenu-generator/icons/90ee0ab28d63b474d19ceafd3a891f3f.png"><action name="Execute"><command><![CDATA[imagewriter]]></command></action></item>
+    <item label="Table de caractères" icon="/home/stephane/.config/obmenu-generator/icons/b20a6f3323f8c4066021fa5398127683.png"><action name="Execute"><command><![CDATA[gucharmap]]></command></action></item>
+    <item label="Visionneur d'images" icon="/home/stephane/.config/obmenu-generator/icons/8413dd0c7cc6f75d9e3f2d8e8d267570.png"><action name="Execute"><command><![CDATA[gpicview]]></command></action></item>
+    <item label="Xfburn" icon="/home/stephane/.config/obmenu-generator/icons/acb8b2a3948aef26516872bd714865e9.png"><action name="Execute"><command><![CDATA[xfburn]]></command></action></item>
+  </menu>
+  <menu id="0.858453573982359" icon="/home/stephane/.config/obmenu-generator/icons/c783371a8ce3b012562be79de31f44e3.png" label="Developpement">
+    <item label="Geany" icon="/home/stephane/.config/obmenu-generator/icons/98198b0de7c491b8c169c31382fbc2dd.png"><action name="Execute"><command><![CDATA[geany]]></command></action></item>
+  </menu>
+  <menu id="0.170441567237628" icon="/home/stephane/.config/obmenu-generator/icons/a12eac6db99b3413e6460a42e90c58fe.png" label="Education">
+    <item label="LibreOffice Math" icon="/home/stephane/.config/obmenu-generator/icons/1dbe5c5fbd00c75b697c09de3235a454.png"><action name="Execute"><command><![CDATA[libreoffice --math]]></command></action></item>
+  </menu>
+  <menu id="0.359680647586124" icon="/home/stephane/.config/obmenu-generator/icons/825131f3f6922939f00989037a1da9c4.png" label="Graphisme">
+    <item label="LibreOffice Draw" icon="/home/stephane/.config/obmenu-generator/icons/fcaa9785324f857ce7936163a446a09b.png"><action name="Execute"><command><![CDATA[libreoffice --draw]]></command></action></item>
+    <item label="Visionneur d'images" icon="/home/stephane/.config/obmenu-generator/icons/8413dd0c7cc6f75d9e3f2d8e8d267570.png"><action name="Execute"><command><![CDATA[gpicview]]></command></action></item>
+    <item label="Éditeur d'image GIMP" icon="/home/stephane/.config/obmenu-generator/icons/19512fdf7db34e5f05c8dddcdf4e0d9a.png"><action name="Execute"><command><![CDATA[gimp-2.8]]></command></action></item>
+  </menu>
+  <menu id="0.688461708266079" icon="/home/stephane/.config/obmenu-generator/icons/32543fc0361ec30a09afc961dbc5d802.png" label="Multimedia">
+    <item label="Contrôle du volume PulseAudio" icon="/home/stephane/.config/obmenu-generator/icons/02dc5f1c10435acde98cafd8b0bfca8c.png"><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+    <item label="DeaDBeeF" icon="/home/stephane/.config/obmenu-generator/icons/254f2ca0672d4379d3261cd8df956198.png"><action name="Execute"><command><![CDATA[deadbeef]]></command></action></item>
+    <item label="mpv Media Player" icon="/home/stephane/.config/obmenu-generator/icons/5449f87d185aacd49b2a2e3cff9cb25d.png"><action name="Execute"><command><![CDATA[mpv --player-operation-mode=pseudo-gui --]]></command></action></item>
+    <item label="Qt V4L2 test Utility" icon="/home/stephane/.config/obmenu-generator/icons/536fa375e9ddf3f93743c18aeecb4e9d.png"><action name="Execute"><command><![CDATA[qv4l2]]></command></action></item>
+    <item label="SMPlayer" icon="/home/stephane/.config/obmenu-generator/icons/06858b053a651c4a0be1594052216aba.png"><action name="Execute"><command><![CDATA[smplayer]]></command></action></item>
+    <item label="Xfburn" icon="/home/stephane/.config/obmenu-generator/icons/acb8b2a3948aef26516872bd714865e9.png"><action name="Execute"><command><![CDATA[xfburn]]></command></action></item>
+  </menu>
+  <menu id="0.462863798704333" icon="/home/stephane/.config/obmenu-generator/icons/7fb6612caf863b454baf36f605412923.png" label="Internet">
+    <item label="Chromium" icon="/home/stephane/.config/obmenu-generator/icons/e97aeb59102f73637041afb47772a73d.png"><action name="Execute"><command><![CDATA[/usr/bin/chromium]]></command></action></item>
+    <item label="Claws Mail" icon="/home/stephane/.config/obmenu-generator/icons/e55f9a064ab69b6d48efb54b891ead6c.png"><action name="Execute"><command><![CDATA[claws-mail]]></command></action></item>
+    <item label="Explorateur de serveur SSH Avahi" icon="/home/stephane/.config/obmenu-generator/icons/6f1f0c90603eb0ad11727637144a9519.png"><action name="Execute"><command><![CDATA[/usr/bin/bssh]]></command></action></item>
+    <item label="Explorateur de serveurs VNC Avahi" icon="/home/stephane/.config/obmenu-generator/icons/6f1f0c90603eb0ad11727637144a9519.png"><action name="Execute"><command><![CDATA[/usr/bin/bvnc]]></command></action></item>
+    <item label="HexChat" icon="/home/stephane/.config/obmenu-generator/icons/7139dfba14e9fd8f9614743012c9014a.png"><action name="Execute"><command><![CDATA[hexchat --existing]]></command></action></item>
+    <item label="Transmission" icon="/home/stephane/.config/obmenu-generator/icons/54262c4834441f1e8dd6f4856e13037d.png"><action name="Execute"><command><![CDATA[transmission-gtk]]></command></action></item>
+    <item label="uGet" icon="/home/stephane/.config/obmenu-generator/icons/6473630efa25f865494f47325b039ae3.png"><action name="Execute"><command><![CDATA[env GDK_BACKEND=x11 uget-gtk]]></command></action></item>
+  </menu>
+  <menu id="0.987394823596642" icon="/home/stephane/.config/obmenu-generator/icons/9773991900ec8c82a1b4458dcad28afa.png" label="Bureautique">
+    <item label="LibreOffice Base" icon="/home/stephane/.config/obmenu-generator/icons/7d5614813bfb5a374f614627a5e32bf8.png"><action name="Execute"><command><![CDATA[libreoffice --base]]></command></action></item>
+    <item label="LibreOffice Calc" icon="/home/stephane/.config/obmenu-generator/icons/957b44a1bda774a8b544cd3ec4c2d58a.png"><action name="Execute"><command><![CDATA[libreoffice --calc]]></command></action></item>
+    <item label="LibreOffice Draw" icon="/home/stephane/.config/obmenu-generator/icons/fcaa9785324f857ce7936163a446a09b.png"><action name="Execute"><command><![CDATA[libreoffice --draw]]></command></action></item>
+    <item label="LibreOffice Impress" icon="/home/stephane/.config/obmenu-generator/icons/0e75f3955656ecfaebdbdbe1fdaa39f0.png"><action name="Execute"><command><![CDATA[libreoffice --impress]]></command></action></item>
+    <item label="LibreOffice Math" icon="/home/stephane/.config/obmenu-generator/icons/1dbe5c5fbd00c75b697c09de3235a454.png"><action name="Execute"><command><![CDATA[libreoffice --math]]></command></action></item>
+    <item label="LibreOffice Writer" icon="/home/stephane/.config/obmenu-generator/icons/6647644ecac7ea8c7530b5d4a3fe04cf.png"><action name="Execute"><command><![CDATA[libreoffice --writer]]></command></action></item>
+    <item label="LibreOffice" icon="/home/stephane/.config/obmenu-generator/icons/251475f4b7d571651309ed1335ac228e.png"><action name="Execute"><command><![CDATA[libreoffice]]></command></action></item>
+    <item label="qpdfview" icon="/home/stephane/.config/obmenu-generator/icons/2e7bf0a3fc522833aa27a7da4887151c.png"><action name="Execute"><command><![CDATA[qpdfview --unique]]></command></action></item>
+  </menu>
+  <menu id="0.132483759237481" icon="/home/stephane/.config/obmenu-generator/icons/e78679d80431a65240d38f06200f659c.png" label="Autres">
+    <item label="Show Desktop" icon="/home/stephane/.config/obmenu-generator/icons/eff6c3e3228e8b89ad2aea23615c1e59.png"><action name="Execute"><command><![CDATA[show_desktop]]></command></action></item>
+  </menu>
+  <menu id="0.736033744635652" icon="/home/stephane/.config/obmenu-generator/icons/e2f6f37486f8b6e87d0d9574300cb601.png" label="Réglages">
+    <item label="Adaptateurs Bluetooth" icon="/home/stephane/.config/obmenu-generator/icons/a853a60939c15ea96cecd70211bafdb2.png"><action name="Execute"><command><![CDATA[blueman-adapters]]></command></action></item>
+    <item label="Ajouter/supprimer des logiciels" icon="/home/stephane/.config/obmenu-generator/icons/63ad9132341a3670bca10af1097e0a22.png"><action name="Execute"><command><![CDATA[pamac-manager]]></command></action></item>
+    <item label="Applications favorites" icon="/home/stephane/.config/obmenu-generator/icons/3c71d15079f198a2a36454de899dc869.png"><action name="Execute"><command><![CDATA[exo-preferred-applications]]></command></action></item>
+    <item label="Applications préférées" icon="/home/stephane/.config/obmenu-generator/icons/d95d8183f419730c16669a27a4f2b8b1.png"><action name="Execute"><command><![CDATA[libfm-pref-apps]]></command></action></item>
+    <item label="ARandR" icon="/home/stephane/.config/obmenu-generator/icons/6cf73644123a7ac845e4d0e892b25d0e.png"><action name="Execute"><command><![CDATA[arandr]]></command></action></item>
+    <item label="Clavier et souris" icon="/home/stephane/.config/obmenu-generator/icons/a900971f46e8681f8b0df79eb6f5305b.png"><action name="Execute"><command><![CDATA[lxinput]]></command></action></item>
+    <item label="Configuration de l'impression" icon="/home/stephane/.config/obmenu-generator/icons/caa5db2138fae914132bf31eae7d85cf.png"><action name="Execute"><command><![CDATA[system-config-printer]]></command></action></item>
+    <item label="Connexions réseau" icon="/home/stephane/.config/obmenu-generator/icons/c55f260082fd0bcfa20f287c7b67c425.png"><action name="Execute"><command><![CDATA[nm-connection-editor]]></command></action></item>
+    <item label="Gestionnaire Bluetooth" icon="/home/stephane/.config/obmenu-generator/icons/1c6c7c1238dffe605c4d04414518495f.png"><action name="Execute"><command><![CDATA[blueman-manager]]></command></action></item>
+    <item label="Gestionnaire du panneau tint2" icon="/home/stephane/.config/obmenu-generator/icons/b339648736f316d1cc2e04d322aadb21.png"><action name="Execute"><command><![CDATA[tint2conf]]></command></action></item>
+    <item label="Manjaro Gestionnaire de paramètres" icon="/home/stephane/.config/obmenu-generator/icons/d95d8183f419730c16669a27a4f2b8b1.png"><action name="Execute"><command><![CDATA[manjaro-settings-manager]]></command></action></item>
+    <item label="Mise à jour des logiciels" icon="/home/stephane/.config/obmenu-generator/icons/4a910abf637c360062c41be3bf9c349a.png"><action name="Execute"><command><![CDATA[pamac-updater]]></command></action></item>
+    <item label="Paramètres de l'écran" icon="/home/stephane/.config/obmenu-generator/icons/6cf73644123a7ac845e4d0e892b25d0e.png"><action name="Execute"><command><![CDATA[lxrandr]]></command></action></item>
+    <item label="Paramètres de Qt5" icon="/home/stephane/.config/obmenu-generator/icons/0332e3f1fd936cc947fc947e5935b380.png"><action name="Execute"><command><![CDATA[qt5ct]]></command></action></item>
+    <item label="Paramètres du Notifieur Manjaro" icon="/home/stephane/.config/obmenu-generator/icons/d95d8183f419730c16669a27a4f2b8b1.png"><action name="Execute"><command><![CDATA[msm_notifier --settings]]></command></action></item>
+    <item label="Personnaliser l'apparence" icon="/home/stephane/.config/obmenu-generator/icons/0332e3f1fd936cc947fc947e5935b380.png"><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+    <item label="Privilege granting" icon="/home/stephane/.config/obmenu-generator/icons/3cfc11b0edde353c3f7d78140d3cf09b.png"><action name="Execute"><command><![CDATA[gksu-properties]]></command></action></item>
+    <item label="TintWizard" icon="/home/stephane/.config/obmenu-generator/icons/b339648736f316d1cc2e04d322aadb21.png"><action name="Execute"><command><![CDATA[tintwizard]]></command></action></item>
+  </menu>
+  <menu id="0.657672878413678" icon="/home/stephane/.config/obmenu-generator/icons/88ddb36bab88125997161a4e20ad2db2.png" label="Système">
+    <item label="Ajouter/supprimer des logiciels" icon="/home/stephane/.config/obmenu-generator/icons/63ad9132341a3670bca10af1097e0a22.png"><action name="Execute"><command><![CDATA[pamac-manager]]></command></action></item>
+    <item label="Configuration de l'impression" icon="/home/stephane/.config/obmenu-generator/icons/caa5db2138fae914132bf31eae7d85cf.png"><action name="Execute"><command><![CDATA[system-config-printer]]></command></action></item>
+    <item label="Explorateur Zeroconf d'Avahi" icon="/home/stephane/.config/obmenu-generator/icons/6f1f0c90603eb0ad11727637144a9519.png"><action name="Execute"><command><![CDATA[/usr/bin/avahi-discover]]></command></action></item>
+    <item label="Gestionnaire d'impression" icon="/home/stephane/.config/obmenu-generator/icons/caa5db2138fae914132bf31eae7d85cf.png"><action name="Execute"><command><![CDATA[/usr/bin/xdg-open http://localhost:631/]]></command></action></item>
+    <item label="GParted" icon="/home/stephane/.config/obmenu-generator/icons/f3d1bb8d49431a08c99402fa1ee4b885.png"><action name="Execute"><command><![CDATA[/usr/bin/gparted]]></command></action></item>
+    <item label="Htop" icon="/home/stephane/.config/obmenu-generator/icons/3fc18cb05eea0f1729e82d920ec82ff5.png"><action name="Execute"><command><![CDATA[lxterminal -e 'htop']]></command></action></item>
+    <item label="I-Nex Library" icon="/home/stephane/.config/obmenu-generator/icons/8a38e28ec1a74f09fb6ec8cbf55a84fa.png"><action name="Execute"><command><![CDATA[/usr/bin/i-nex.gambas --library]]></command></action></item>
+    <item label="I-Nex" icon="/home/stephane/.config/obmenu-generator/icons/8a38e28ec1a74f09fb6ec8cbf55a84fa.png"><action name="Execute"><command><![CDATA[/usr/bin/i-nex.gambas]]></command></action></item>
+    <item label="LSHW" icon="/home/stephane/.config/obmenu-generator/icons/06d0221647c695cabec14a5cac3f28ff.png"><action name="Execute"><command><![CDATA[/usr/sbin/gtk-lshw]]></command></action></item>
+    <item label="LXTerminal" icon="/home/stephane/.config/obmenu-generator/icons/5e660277967746bb84602be82677065a.png"><action name="Execute"><command><![CDATA[lxterminal]]></command></action></item>
+    <item label="Manjaro Hello" icon="/home/stephane/.config/obmenu-generator/icons/3ec45520ae2a45c4476e42e35f4482a5.png"><action name="Execute"><command><![CDATA[/usr/bin/manjaro-hello]]></command></action></item>
+    <item label="Mise à jour des logiciels" icon="/home/stephane/.config/obmenu-generator/icons/4a910abf637c360062c41be3bf9c349a.png"><action name="Execute"><command><![CDATA[pamac-updater]]></command></action></item>
+    <item label="SUSE Studio Imagewriter" icon="/home/stephane/.config/obmenu-generator/icons/90ee0ab28d63b474d19ceafd3a891f3f.png"><action name="Execute"><command><![CDATA[imagewriter]]></command></action></item>
+    <item label="Tint2" icon="/home/stephane/.config/obmenu-generator/icons/0e1a7cb6d5fb0a40f20ad390d0df7344.png"><action name="Execute"><command><![CDATA[tint2]]></command></action></item>
+    <item label="Éditeur dconf" icon="/home/stephane/.config/obmenu-generator/icons/936b67be0f24379bdd6f551838ab197f.png"><action name="Execute"><command><![CDATA[dconf-editor]]></command></action></item>
+  </menu>
+  <separator/>
+  <menu id="0.0177042763842046" icon="/home/stephane/.config/obmenu-generator/icons/d95d8183f419730c16669a27a4f2b8b1.png" label="Preferences">
+  <separator label="Bureau"/>
+    <item label="Apparence" icon="/home/stephane/.config/obmenu-generator/icons/0332e3f1fd936cc947fc947e5935b380.png"><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+    <item label="Arrière Plan" icon="/home/stephane/.config/obmenu-generator/icons/dc07ea0146d8fe8408ee1b3a35dded2d.png"><action name="Execute"><command><![CDATA[nitrogen]]></command></action></item>
+  <separator label="Options"/>
+    <item label="Applications par défaut" icon="/home/stephane/.config/obmenu-generator/icons/3c71d15079f198a2a36454de899dc869.png"><action name="Execute"><command><![CDATA[exo-preferred-applications]]></command></action></item>
+    <item label="Gestionnaire de connexion" icon="/home/stephane/.config/obmenu-generator/icons/b8153ae968f2dce6b0a0d1496428f431.png"><action name="Execute"><command><![CDATA[lightdm-gtk-greeter-settings-pkexec]]></command></action></item>
+  <separator label="Openbox"/>
+  <menu id="0.947730556120838" icon="/home/stephane/.config/obmenu-generator/icons/cbd33e85d4e0834359519a4e282b2aeb.png" label="Openbox">
+    <item label="Reconfigurer Openbox" icon="/home/stephane/.config/obmenu-generator/icons/cbd33e85d4e0834359519a4e282b2aeb.png"><action name="Execute"><command><![CDATA[openbox --reconfigure]]></command></action></item>
+    <item label="Openbox Autostart" icon="/home/stephane/.config/obmenu-generator/icons/98198b0de7c491b8c169c31382fbc2dd.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/autostart]]></command></action></item>
+    <item label="Openbox RC" icon="/home/stephane/.config/obmenu-generator/icons/98198b0de7c491b8c169c31382fbc2dd.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/rc.xml]]></command></action></item>
+    <item label="Openbox Menu" icon="/home/stephane/.config/obmenu-generator/icons/98198b0de7c491b8c169c31382fbc2dd.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/menu.xml]]></command></action></item>
+  </menu>
+  <menu id="0.791912212765045" icon="/home/stephane/.config/obmenu-generator/icons/88180f02a9436650a9d3ed3117304dd8.png" label="Menu">
+    <item label="Menu Schema" icon="/home/stephane/.config/obmenu-generator/icons/98198b0de7c491b8c169c31382fbc2dd.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/schema.pl]]></command></action></item>
+    <item label="Menu Config" icon="/home/stephane/.config/obmenu-generator/icons/98198b0de7c491b8c169c31382fbc2dd.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/config.pl]]></command></action></item>
+  <separator/>
+    <item label="Générer menu" icon="/home/stephane/.config/obmenu-generator/icons/88180f02a9436650a9d3ed3117304dd8.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -c]]></command></action></item>
+    <item label="Générer menu avec icônes" icon="/home/stephane/.config/obmenu-generator/icons/88180f02a9436650a9d3ed3117304dd8.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -i -c]]></command></action></item>
+  <separator/>
+    <item label="Rafraichir icônes" icon="/home/stephane/.config/obmenu-generator/icons/4cb66f99e46a61e780eb31d76cc87cd7.png"><action name="Execute"><command><![CDATA[obmenu-generator -d]]></command></action></item>
+  </menu>
+  </menu>
+    <item label="Verrouillage écran" icon="/home/stephane/.config/obmenu-generator/icons/d1a42564dcf17306e990eb39dbc9a239.png"><action name="Execute"><command><![CDATA[i3lock -c 414244]]></command></action></item>
+    <item label="Se déconnecter" icon="/home/stephane/.config/obmenu-generator/icons/f10fa38bc64e02578bae07cfb2192d07.png"><action name="Execute"><command><![CDATA[oblogout]]></command></action></item>
+  </menu>
+</openbox_menu>

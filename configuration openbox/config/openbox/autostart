@@ -1,0 +1,36 @@
+/usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
+
+## Background
+(sleep 1s && nitrogen --restore) &
+
+## Panel
+(sleep 1s && tint2) &
+
+## Startup
+(sleep 1s && volumeicon) &
+(sleep 1s && xfce4-volumed-pulse) &
+(sleep 1s && clipit) &
+#(sleep 1s && pamac-tray) &
+(sleep 1s && numlockx) &
+
+## Regeneracja menu
+(sleep 4s && obmenu-generator -s -i) &
+(sleep 4s && obmenu-generator -p -i) &
+
+## Optionally enable file manager in daemon mode for automounting
+(sleep 1s && pcmanfm -d) &
+
+## Optionally enable screensaver
+#(sleep 1s && xautolock -time 15 -locker 'xlock -mode blank') &
+
+## Optionally disable touchpad
+#/usr/bin/synclient TouchpadOff=1 &
+
+#conky
+(sleep 1s && conky ) &
+
+## Manjaro-welcome screen 
+(sleep 2s && manjaro-welcome --autostart) &
+(sleep 2s && xdg-user-dirs-gtk-update) &
+(sleep 2s && xfce4-power-manager) &
+(sleep 2s && blueman-applet) &

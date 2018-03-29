@@ -1,0 +1,2 @@
+## Modify xdg-open behaviour
+export XDG_CURRENT_DESKTOP=XFCE
