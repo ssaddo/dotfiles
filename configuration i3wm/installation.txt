@@ -1,0 +1,111 @@
+﻿apt install i3 i3blocks
+
+apt install slim
+
+apt install xorg
+
+Rajouter un utilisateur avec les droits sudo
+
+apt-get install sudo
+
+nano /etc/sudoers
+ajouter la ligne dans # User privilege specification
+nom utilisateur  ALL=(ALL:ALL) ALL
+
+apt install firefox (lynx, links)
+
+apt install neofetch
+
+apt install cmatrix
+
+apt install thunar (mc)
+
+apt install htop
+
+apt install lxterminal
+
+Ajouter les additions invitées
+
+Dans le menu Périphériques puis sur inserer le CD des additions invitées
+
+sudo apt-get install build-essential module-assistant
+sudo m-a prepare
+
+on ouvre le cd dans un terminal
+
+sudo sh ./VBoxLinuxAdditions.run
+
+retirer le cd des additions invitées
+
+on redemarre ensuite la session pour que virtualbox prenne en compte tous ca
+
+reboot
+
+Installation de la barre i3blocks
+
+nano /home/stephane/.config/i3/config
+
+statut_command i3blocks
+
+super+ shift + r
+
+nano /etc/i3blocks.conf
+
+modifier slim
+
+nano /etc/slim.conf
+
+commenter la ligne theme debian avec #
+
+mettre votre wallpaper dans /usr/share/slim/themes/default/backgroung.jpg
+
+Transparent terminals in i3wm
+
+apt install xcompmgr
+
+nano /home/stephane/.config/i3/config
+
+exec xcompmgr &
+
+changer les couleurs i3
+
+nano /home/stephane/.config/i3/config
+
+# class                 border  backgr. text    indicator child_border
+client.focused          #000000 #000000 #ffffff #000000   #000000
+client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
+client.unfocused        #333333 #222222 #888888 #292d2e   #222222
+client.urgent           #2f343a #00cdcd #ffffff #00cdcd   #00cdcd
+client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+
+client.background       #ffffff
+
+Aligner le titre des fenêtres
+
+nano /home/stephane/.config/i3/config
+
+#for_window [class=".*"] 
+title_align center
+
+Personnalisation LXterminal
+
+choisir Tango comme thème et enlever toutes les barres
+
+
+###Mozilla Firefox Aurora
+
+apt install curl wget apt-transport-https dirmngr
+
+deb http://mozilla.debian.net/ experimental firefox-aurora
+
+apt-key adv --keyserver ha.pool.sks-keyservers.net --recv-keys 85A3D26506C4AE2A
+
+
+modification du grub
+
+
+
+
+
+
+
